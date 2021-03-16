@@ -1,0 +1,138 @@
+body {
+  box-sizing: border-box;
+  
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+}
+
+.dark {
+  background-image: url(images/bg-desktop-dark.jpg);
+  background-color: hsl(235, 21%, 11%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.light {
+  background-image: url(images/bg-desktop-light.jpg);
+  background-color: hsl(0, 0%, 98%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  padding-top: 50px; 
+}
+
+.todo-container {
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+  
+}
+
+.todo-list-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.todo-list-name {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  color: #fff;
+
+}
+
+
+.todo-list {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  background-color: hsl(237, 14%, 26%);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.create-new-todo {
+  text-align: center; 
+  padding: 0 10px;
+  background-color:  hsl(237, 14%, 26%);
+}
+
+.message {
+  width: 100%; 
+  background-color: hsl(237, 14%, 26%);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;  
+}
+
+.todo, .li {
+  margin-bottom: 10px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.status-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-info div {
+  margin: 0 15px;
+}
+
+.changer {
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  background-color:hsl(237, 14%, 26%);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+li {
+  list-style: none;
+  
+}
+
+li, 
+input,
+img,
+.all, 
+.active, 
+.completed, 
+.clear:hover {
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.cross {
+  background-image: url(images/icon-cross.svg);
+  width: 18px;
+  height: 18px;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer; 
+}
+
+
+
+
+

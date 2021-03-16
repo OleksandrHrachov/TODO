@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="reset.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Practice #2 | Todo app</title>
+
+</head>
+<body>
+
+  <div class="container dark">
+
+    <div class="todo-container">
+
+        <div class="todo-list-title">
+
+          <div class="todo-list-name">
+            todo
+          </div>
+
+          <div class="toggle-mode">
+                        
+              <img class="icon-mode" src="images/icon-sun.svg" alt="mode" srcset="">
+            
+          </div>
+        </div>
+
+        
+
+
+        <div class="todo-list"> 
+          <div class="create-new-todo">
+            <input id="input" class="message" type="text"  placeholder="Create a new todo...">
+          </div>          
+        </div>
+
+        <div class="wrapper">
+          <ul id="result" class="todo"></ul>
+
+          <div class="info">
+            <div class="counter">
+              <span id="total"></span>  items left
+            </div>
+            <div class="status-info">
+              <div class="all">All</div>
+              <div class="active">Active</div>
+              <div class="completed">Completed</div>
+            </div>
+            <div class="clear">Clear Completed</div>
+          </div>
+        </div>
+
+        
+
+        <div class="changer">Drag and drop to rearder list</div>
+       
+ 
+    </div>
+ 
+ </div>
+
+ 
+ 
+ <script src="app.js"></script>
+</body>
+</html>
